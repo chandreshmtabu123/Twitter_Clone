@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in to Twitter/Twitter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="Twitter.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <button class="close-button">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <a class="logo" href="#">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </div>
+
+      <div class="content">
+        <h1>Sign in to Twitter</h1>
+
+        <div class="action-buttons">
+            <button class="primary-button sign-in-button" onclick="window.location.href='https://accounts.google.com/gsi/select?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=H1duAKUryFs3He%2ByV1NgRA&channel_id=09046bf30a02df99cfb28dc224c547e1047320d3c66e95ba3d580596138fa095&origin=https%3A%2F%2Ftwitter.com'">
+            <object data="./google.svg"></object>
+            <span>Sign in with Google</span>
+          </button>
+          <button class="primary-button sign-in-button" onclick="window.location.href='https://secure7.store.apple.com/in/shop/signIn?ssi=1AAABiYES6qogCRWRLVUwQ7Vn-Hj-cRt5bl303dvEEdiIT-d-8jJeGiEAAAAjaHR0cHM6Ly93d3cuYXBwbGUuY29tL2luL3Nob3AvYmFnfHwAAgGtXQEwkLCHrrA6Cb2kl71Yv0PFipQ1CIyvg7AY0RPj4w'">
+            <object data="./apple.svg"></object>
+            <span>Sign in with Apple</span>
+          </button>
+        </div>
+
+        <div class="divider">
+          <p>or</p>
+        </div>
+
+        <div class="email-log-in">
+          <input type="text" id="log-in" placeholder="Email">
+          <label for="log-in">Phone, email or username</label>
+        </div>
+
+        <div class="action-buttons">
+          <button class="primary-button">Next</button>
+          <button class="secondary-button" onclick="window.location.href='https://twitter.com/i/flow/password_reset?input_flow_data=%7B%22requested_variant%22%3A%22eyJwbGF0Zm9ybSI6IlJ3ZWIifQ%3D%3D%22%7D'">Forgot Password?</button>
+        </div>
+      </div>
+      <div class="sign-up">
+        <p>Don't have an account? <a href="https://twitter.com/i/flow/signup?input_flow_data=%7B%22requested_variant%22%3A%22eyJyZWRpcmVjdF91cmwiOiIvbG9naW4%2FbGFuZz1lbiJ9%22%7D">Sign up</a></p>
+      </div>
+    </div>
+  </body>
+</html>
